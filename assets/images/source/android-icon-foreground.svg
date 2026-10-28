@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 108 108" fill="none">
+	<!-- Android adaptive icon foreground: the bars inside the 66dp safe zone; the crimson
+	     background colour is set in app.json. -->
+	<rect x="34" y="57" width="10" height="17" rx="3" fill="#FFFFFF"/>
+	<rect x="49" y="45" width="10" height="29" rx="3" fill="#FFFFFF"/>
+	<rect x="64" y="34" width="10" height="40" rx="3" fill="#0EA5E9"/>
+</svg>

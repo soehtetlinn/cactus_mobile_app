@@ -1,0 +1,62 @@
+{
+  "expo": {
+    "name": "Cactus Employee",
+    "slug": "cactus-employee",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "cactusemployee",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "bundleIdentifier": "com.cactustree.employee",
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.cactustree.employee",
+      "adaptiveIcon": {
+        "backgroundColor": "#B91C1C",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "monochromeImage": "./assets/images/android-icon-foreground.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "single",
+      "favicon": "./assets/images/logo.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#1C1917",
+          "image": "./assets/images/logo.png",
+          "imageWidth": 96
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Cactus Employee uses your location to record where you check in and out of work. แอปใช้ตำแหน่งของคุณเพื่อบันทึกสถานที่ลงเวลาเข้า-ออกงาน"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "Cactus Employee uses the camera to photograph receipts for expense claims. แอปใช้กล้องเพื่อถ่ายรูปใบเสร็จสำหรับการเบิกค่าใช้จ่าย",
+          "photosPermission": "Cactus Employee lets you attach receipt photos to expense claims. แอปให้คุณแนบรูปใบเสร็จในการเบิกค่าใช้จ่าย"
+        }
+      ],
+      "expo-secure-store",
+      "expo-sharing",
+      "@react-native-community/datetimepicker"
+    ],
+    "extra": {
+      "serverUrl": ""
+    },
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}

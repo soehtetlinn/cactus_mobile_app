@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 64 64" fill="none">
+	<!-- Same placeholder mark as the ERPNext theme (custom_theme/public/images/logo.svg). -->
+	<rect width="64" height="64" rx="14" fill="#B91C1C"/>
+	<rect x="15" y="34" width="9" height="15" rx="2.5" fill="#FFFFFF"/>
+	<rect x="27.5" y="24" width="9" height="25" rx="2.5" fill="#FFFFFF"/>
+	<rect x="40" y="14" width="9" height="35" rx="2.5" fill="#0EA5E9"/>
+</svg>
